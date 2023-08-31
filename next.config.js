@@ -1,9 +1,8 @@
 /**
  * @type {import('next').NextConfig}
  */
-const nextConfig = {
+module.exports = {
+  module: "export",
   basePath: "/ali-chatraei",
   assetPrefix: "/ali-chatraei/",
 };
-
-export default nextConfig;
