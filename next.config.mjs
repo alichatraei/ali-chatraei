@@ -2,13 +2,9 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  trailingSlash: true,
   output: "export",
-  images: {
-    loader: "akamai",
-    path: "",
-  },
-  assetPrefix: "/",
+  basePath: "/ali-chatraei",
+  assetPrefix: "/ali-chatraei/",
 };
 
 export default nextConfig;
