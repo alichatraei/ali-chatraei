@@ -65,7 +65,11 @@ export default function Home() {
           </Link>
         </div>
         <div className="flex mt-24 gap-5">
-          <button className="bg-white rounded-md py-2 px-3 flex text-[#2E5F73] justify-start items-center gap-2.5">
+          <Link
+            href="https://uploadkon.ir/uploads/905712_23alichatraei-resume.pdf"
+            target="_blank"
+            className="bg-white rounded-md py-2 px-3 flex text-[#2E5F73] justify-start items-center gap-2.5"
+          >
             <span className="text-left text-sm font-bold">
               Download PDF Portfolio
               <br />
@@ -74,7 +78,7 @@ export default function Home() {
               </span>
             </span>
             <FiDownloadCloud size={46} color="#2E5F73" />
-          </button>
+          </Link>
           <Link
             className="rounded-md py-2 px-3 flex bg-secondary justify-start items-center gap-2.5 text-accent"
             href="mailto:alichatraei@yahoo.com"
